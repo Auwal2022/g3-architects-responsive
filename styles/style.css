@@ -280,3 +280,16 @@ body p{
     display: flex;
 }
 
+
+/* footer section style from here */
+
+.footer{
+    width: 80%;
+    margin: 40px auto;
+    padding: 10px;
+    color: #424242;
+    background: rgba(255, 144, 14, 0.1);
+    border-radius: 3px;
+    text-align: center;
+}
+
