@@ -123,25 +123,23 @@ body p{
 }
 
 .title-content{
-    width: 465px;
+    width: 90%;
     border-left: 5px solid #FF900E;
     padding: 0 0 0 20px;
     box-sizing: border-box;
 }
 
-
-
 .feature-details{
-    padding: 12px 12px 0 12px;
-    width: 450px;
+    padding: 12px;
+    width: 90%;
     height: 115px;
     margin: 20px 0;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 3px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
 }
 
 .feature-image img{
@@ -205,4 +203,34 @@ body p{
 
 .testimonial-content:hover img{
     transform: scale(0.8);
+}
+
+
+
+
+/* sponsor section start from here */
+
+.sponsor-container{
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.sponsor-content{
+    width: 50%;
+    margin: auto;
+}
+
+.sponsor-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.sponsor-list img{
+    width: 150px;
+    filter: grayscale(90%);
+    margin: 10px;
 }
