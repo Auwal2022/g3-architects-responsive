@@ -392,6 +392,10 @@ body p{
         width: 95%;
     }
 
+    .banner-container{
+        width: 95%;
+    }
+
     .features-list-container{
         flex-direction: column;
     }
