@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 body p{
@@ -234,3 +235,48 @@ body p{
     filter: grayscale(90%);
     margin: 10px;
 }
+
+
+/* contact form start from here */
+
+.contact-form h2{
+    text-align: center;
+}
+
+.contact-form-content{
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-content label, input, textarea{
+    color: #424242;
+    font-size: 13px;
+    width: 100%;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.contact-form-content input, textarea{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.submit-button{
+    padding: 8px 15px;
+    color: #fff;
+    background: #424242;
+    cursor: pointer;
+    width: 100px;
+}
+
+.input-field{
+    display: flex;
+}
+
