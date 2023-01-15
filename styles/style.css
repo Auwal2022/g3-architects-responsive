@@ -198,3 +198,11 @@ body p{
 .testimonial-content h2{
     margin: 5px 0;
 }
+
+.testimonial-content img{
+    transition: transform 0.5s ease-in-out;
+}
+
+.testimonial-content:hover img{
+    transform: scale(0.8);
+}
