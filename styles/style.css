@@ -39,20 +39,21 @@
 .nav-bar ul li a {
     text-decoration: none;
     color: #424242;
+    font-size: 15px;
 }
 
 .banner-container {
     text-align: center;
-    width: 80%;
+    width: 70%;
     margin: 50px auto 30px;
 }
 
 .banner-container h2 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .banner-container p {
-    font-size: 15px;
+    font-size: 14px;
     color: #424242;
     line-height: 22px;
     margin: 15px 0;
@@ -129,7 +130,12 @@
 
 .title-content{
     width: 465px;
+    border-left: 5px solid #FF900E;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
 }
+
+
 
 .feature-title p, .feature-details h5{
     font-size: 13px;
@@ -144,20 +150,23 @@
     margin: 20px 0;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .feature-image img{
-    width: 550px;
+    width: 480px;
 }
 
 .extra-button{
     font-size: 25px;
     font-weight: bold;
-    height: 75px;
-    width: 150px;
+    height: 100px;
+    width: 170px;
     position: relative;
-    bottom: 55px;
-    left: 42%;
+    bottom: 50px;
+    left: -4%;
     z-index: 100;
     line-height: 20px;
 }
